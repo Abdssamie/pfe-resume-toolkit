@@ -1,0 +1,10 @@
+// LinkedIn Connection Request Notes (Max 300 characters)
+
+// Option 1: Direct to HR / Recruiter (French)
+Bonjour [Prénom], étudiant ingénieur en dernière année à [Nom de l'École], je prépare mon stage PFE en [Spécialité/Tech]. Suivant de près les réalisations de [Entreprise], j'aimerais échanger avec vous sur vos opportunités ouvertes. Merci d'avance pour votre mise en relation !
+
+// Option 2: Direct to HR / Recruiter (English)
+Hi [Firstname], I'm a final-year engineering student at [School] specializing in [Tech/Field]. I'm following [Company]'s innovations with great interest and would love to connect regarding upcoming PFE / final-year internship opportunities. Best regards, [Firstname].
+
+// Option 3: Direct to Technical Lead / Team Manager (French)
+Bonjour [Prénom], passionné par vos travaux en [Tech/Domaine, ex: Cloud/IA] chez [Entreprise], je termine mon cycle d'ingénieur d'État et recherche mon stage PFE. Je serais ravi de suivre vos actualités et de recueillir vos conseils. Merci pour la connexion !

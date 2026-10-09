@@ -1,0 +1,106 @@
+# Candidate Profile Input Template 📋
+# Fill in your details below, or let your AI agent interview you to fill this out.
+# Once filled, the AI agent will generate your tailored Typst resumes and cover letters.
+
+candidate:
+  name: "Prénom NOM"
+  headline: "Software & Data/AI Engineer | State Engineering Final Year Student"
+  contact:
+    email: "prenom.nom@gmail.com"
+    phone: "+212 6 XX XX XX XX"
+    location: "Casablanca / Rabat / Kénitra, Maroc"
+    linkedin: "https://linkedin.com/in/votre-profil"
+    github: "https://github.com/votre-username"
+    portfolio_or_website: ""
+
+target_roles:
+  primary: "Software Engineer / Stage PFE"
+  fallback: "Graduate Trainee / Stagiaire Ingénieur"
+  industry: "Tech / Cloud / Data" # or "Automotive / Chemical / Industrial"
+
+summary:
+  # A 3-4 sentence summary focusing on engineering rigor, practical implementation, and key achievements.
+  # (Avoid buzzwords like 'passionate' or 'results-driven').
+  text: "Final-year State Engineering student combining strong mathematical and analytical foundations with practical expertise in modern software engineering and data systems. Hands-on experience developing and deploying production web platforms and automated data pipelines. Seeking a high-impact Projet de Fin d'Études (PFE) internship to contribute to scalable engineering solutions."
+
+education:
+  - school: "École Nationale des Sciences Appliquées / ENSCK / EMI / ENSIAS"
+    degree: "State Engineering Degree (Final Year)"
+    specialization: "Génie Informatique / Génie des Procédés / Data Engineering"
+    location: "Ville, Maroc"
+    dates: "2022 – 2027"
+    coursework_summary: "Coursework Intersecting Computational Science & Systems Modeling"
+    # ONLY list subjects actually taught at the school!
+    coursework_bullets:
+      - "Algorithmic Problem-Solving & Programming: Taught C, Python, and SQL for data structures and algorithms"
+      - "Mathematical Modeling: Differential equations, numerical methods, linear algebra, and statistical optimization"
+      - "Data Science Foundations: Machine learning algorithms, neural network fundamentals, and predictive modeling"
+
+experience:
+  - role: "Stagiaire Développeur Logiciel / PFA Intern"
+    company: "Nom de l'Entreprise ou Laboratoire Universitaire"
+    location: "Ville, Maroc"
+    dates: "Juillet 2026 – Août 2026"
+    summary: "Full-stack application development and workflow automation"
+    highlights:
+      - "Architected and deployed an internal management platform (React, TypeScript, Node.js/ASP.NET Core) used by team members to register and track operational batches"
+      - "Designed relational database schemas with strict validation constraints, eliminating manual spreadsheet record-keeping"
+      - "Implemented role-based access control (RBAC) and automated PDF report generation pipelines, ensuring end-to-end data integrity"
+
+  - role: "Stagiaire Data & Analyse / Engineering Intern"
+    company: "Nom de l'Entreprise d'Accueil"
+    location: "Ville, Maroc"
+    dates: "Juillet 2025 – Août 2025"
+    summary: "Operational data analytics, statistical modeling, and quality reporting"
+    highlights:
+      - "Engineered predictive data pipelines in Python (pandas, Scikit-Learn) achieving 95%+ accuracy to evaluate parameter thresholds"
+      - "Automated data cleaning, outlier detection, and report generation routines for daily operational monitoring"
+
+projects:
+  - name: "Nom du Projet Flagship / Application"
+    url: "https://github.com/votre-username/nom-du-projet"
+    summary: "Production-ready web application with automated cloud deployment"
+    highlights:
+      - "Engineered a full-stack reactive SaaS platform built with modern TypeScript, Tailwind CSS, and cloud serverless backends"
+      - "Integrated third-party OAuth authentication, webhook listeners, and automated email messaging"
+
+  - name: "Self-Hosted Infrastructure / Cloud Setup"
+    url: ""
+    summary: "Containerized deployment and reverse proxy architecture"
+    highlights:
+      - "Configured and maintained a cloud Linux VPS running containerized microservices managed via Docker and Docker Compose"
+      - "Implemented reverse proxy routing with automated Let's Encrypt SSL/TLS certificates and isolated bridge networks"
+
+skills:
+  languages:
+    - "Python"
+    - "TypeScript"
+    - "JavaScript"
+    - "SQL"
+    - "C"
+  frameworks_and_libs:
+    - "React"
+    - "Next.js"
+    - "Node.js"
+    - "Tailwind CSS"
+    - "Scikit-Learn"
+    - "pandas"
+  databases_and_backend:
+    - "PostgreSQL"
+    - "MySQL"
+    - "Redis"
+    - "RESTful APIs"
+  devops_and_tools:
+    - "Docker"
+    - "Git / GitHub"
+    - "Linux / Bash"
+    - "Postman"
+
+certifications:
+  - "Machine Learning Specialization — DeepLearning.AI & Stanford University"
+  - "FreeCodeCamp Back-End Development & Relational Databases"
+
+languages:
+  - "Arabe : Langue maternelle"
+  - "Français : Courant"
+  - "Anglais : Courant"

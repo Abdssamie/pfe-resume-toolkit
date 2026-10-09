@@ -1,0 +1,25 @@
+À : [email_recruteur@entreprise.com]
+Objet : Candidature – Stage PFE / [Intitulé du Poste] – [Votre École / Université] – [Prénom NOM]
+
+Bonjour Madame/Monsieur [Nom du Recruteur],
+
+Actuellement en dernière année de cycle d'ingénieur d'État à l'[Nom de votre École], je me permets de vous contacter afin de vous proposer ma candidature pour un stage de Projet de Fin d'Études (PFE) au sein de vos équipes [Intitulé de l'équipe, ex: Développement Logiciel / Data / Qualité].
+
+Fort d'une formation rigoureuse et d'expériences pratiques en [principaux domaines techniques, ex: développement web, analyse de données, modélisation], j'ai notamment eu l'occasion de :
+• Concevoir et déployer [Réalisation clé 1, ex: une plateforme web d'entreprise avec gestion sécurisée des données].
+• Développer [Réalisation clé 2, ex: des modèles prédictifs et des flux d'automatisation des tests].
+• Mettre en place [Réalisation clé 3, ex: des environnements de déploiement conteneurisés et des tests de conformité].
+
+Je serais particulièrement motivé à apporter mes compétences techniques à vos projets en cours tout en apprenant aux côtés de vos experts.
+
+Vous trouverez ci-joint mon curriculum vitae ainsi que ma lettre de motivation. Mon portfolio / GitHub est également consultable ici : [Lien GitHub ou Portfolio]
+
+Je reste à votre entière disposition pour tout échange ou entretien.
+
+Bien cordialement,
+
+[Prénom NOM]
+Étudiant Ingénieur d'État en [Spécialité]
+Tél : [+212 6 XX XX XX XX]
+LinkedIn : [URL LinkedIn]
+GitHub : [URL GitHub]

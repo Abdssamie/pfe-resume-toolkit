@@ -1,0 +1,14 @@
+# Ignore personal data files when sharing the template
+data/profile.yml
+data/companies/*.md
+!data/companies/.gitkeep
+data/resumes/*.pdf
+data/resumes/*.typ
+!data/resumes/.gitkeep
+data/applications/*
+!data/applications/.gitkeep
+
+# Typst and OS artifacts
+*.pdf
+.DS_Store
+Thumbs.db

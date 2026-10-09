@@ -1,0 +1,26 @@
+To: [recruiter_email@company.com]
+Subject: Final-Year Internship Application – [Target Role] – [School/University] – [Firstname LASTNAME]
+
+Dear [Mr./Ms. Recruiter Name / Hiring Team],
+
+Currently in my final year of State Engineering studies at [School Name], I am writing to apply for an End-of-Studies Project (PFE) internship within your [Engineering / Software / Data / Operations] team.
+
+With a solid engineering foundation and hands-on experience in [Core domain, e.g., full-stack software development and data pipelines], key highlights of my practical work include:
+• Architected and deployed [Achievement 1, e.g., an enterprise web application handling sample workflows and automated reporting].
+• Developed [Achievement 2, e.g., predictive machine learning models achieving 95%+ classification accuracy].
+• Configured [Achievement 3, e.g., containerized deployment environments with automated SSL routing].
+
+I would be thrilled to contribute to [Target Company]'s upcoming technical milestones while learning under the mentorship of your senior engineering staff.
+
+Please find attached my resume and cover letter. You may also review my code repositories and live projects here: [GitHub or Portfolio Link].
+
+Thank you for your time and consideration. I would welcome the opportunity to discuss my background in an interview.
+
+Sincerely,
+
+[Firstname LASTNAME]
+Final-Year Engineering Student in [Specialization]
+Phone: [+212 6 XX XX XX XX]
+Email: [your.email@gmail.com]
+LinkedIn: [LinkedIn URL]
+GitHub: [GitHub URL]
