@@ -1,0 +1,107 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Prénom NOM
+  headline: Software & Data/AI Engineer | Étudiant Ingénieur d'État en Dernière Année
+  location: Casablanca / Rabat / Kénitra, Maroc
+  email: prenom.nom@gmail.com
+  phone: "+212 6 XX XX XX XX"
+  social_networks:
+    - network: LinkedIn
+      username: votre-profil
+    - network: GitHub
+      username: votre-username
+  sections:
+    summary:
+      - Étudiant Ingénieur d'État en dernière année combinant une solide rigueur analytique avec une pratique approfondie du développement logiciel moderne et de l'ingénierie de la donnée. Expérience pratique dans la conception d'architectures web complètes (React, TypeScript, APIs REST), l'implémentation de modèles de Machine Learning prédictifs et l'automatisation d'environnements conteneurisés. À la recherche d'un stage de Projet de Fin d'Études (PFE) pour concevoir des solutions performantes et scalables.
+
+    education:
+      - institution: École Nationale Supérieure d'Ingénieurs
+        area: Génie Informatique / Génie des Procédés
+        degree: Diplôme d'Ingénieur d'État (Dernière Année)
+        start_date: 2022-09
+        end_date: 2027-06
+        location: Ville, Maroc
+        summary: Formation académique combinant modélisation mathématique et calcul scientifique
+        highlights:
+          - "**Algorithmique & Programmation :** Apprentissage approfondi de C, Python et MATLAB pour les structures de données, l'optimisation matricielle et la résolution numérique (ODEs/PDEs)."
+          - "**Machine Learning & Fondements IA :** Algorithmes supervisés et non-supervisés, réseaux de neurones et modélisation prédictive."
+          - "**Analyse Numérique :** Méthodes itératives, optimisation sous contraintes, modélisation dynamique des systèmes et traitement des signaux."
+
+    experience:
+      - company: Entreprise d'Accueil / Laboratoire Universitaire
+        position: Stagiaire Développeur Full-Stack
+        start_date: 2026-07
+        end_date: 2026-08
+        location: Ville, Maroc
+        summary: Conception d'une plateforme web d'entreprise et automatisation des flux opérationnels
+        highlights:
+          - Conception et déploiement d'une application web complète dotée d'un portail client sécurisé, du suivi du cycle de vie des données et de la génération automatique de rapports PDF.
+          - Architecture d'un modèle relationnel strict (TypeScript, React, PostgreSQL/MySQL), éliminant les saisies manuelles sur tableurs et garantissant l'intégrité référentielle.
+          - Implémentation du contrôle d'accès basé sur les rôles (RBAC), de journaux d'audit horodatés et de validations automatiques de conformité.
+
+      - company: Société Régionale / Entreprise Industrielle
+        position: Stagiaire Data & Machine Learning
+        start_date: 2025-07
+        end_date: 2025-08
+        location: Ville, Maroc
+        summary: Pipelines de données analytiques, modélisation statistique et détection d'anomalies
+        highlights:
+          - Élaboration d'un pipeline de classification supervisé en Python (pandas, Scikit-Learn) atteignant plus de 95% de précision pour anticiper les dérives de qualité.
+          - Développement de routines automatisées d'extraction, de nettoyage et d'ingénierie des caractéristiques sur des jeux de données multi-paramètres.
+          - Synthèse des indicateurs de performance et création de tableaux de bord de suivi opérationnel pour les équipes techniques.
+
+    projects:
+      - name: Plateforme Web SaaS & Starter Architecture
+        summary: Architecture logicielle moderne avec rendu côté serveur et backend cloud réactif
+        highlights:
+          - Développement d'une architecture full-stack intégrant rendu SSR, synchronisation des données en temps réel et typage de bout en bout avec TypeScript.
+          - Intégration de l'authentification sécurisée, de passerelles de paiement récurrentes et de notifications transactionnelles automatisées.
+
+      - name: Infrastructure Cloud Conteneurisée & DevOps
+        summary: Environnement de production sous Linux hébergeant des microservices isolés
+        highlights:
+          - Configuration et maintien d'un serveur Linux VPS exécutant des services conteneurisés orchestrés avec Docker et Docker Compose.
+          - Mise en place d'un reverse proxy sécurisé (Traefik/Nginx) avec terminaison SSL/TLS Let's Encrypt automatique et isolation réseau.
+          - Déploiement de bases de données relationnelles et vectorielles pour la recherche sémantique et la mise en cache Redis.
+
+    skills:
+      - label: Langages
+        details: Python, TypeScript, JavaScript, SQL, C, C#, HTML/CSS
+      - label: Data & IA
+        details: Machine Learning (Scikit-Learn), Analyse & Modélisation (pandas, NumPy), Vector Databases (pgvector), Pipelines ETL
+      - label: Backend & BDD
+        details: PostgreSQL, MySQL, Redis, Architecture d'APIs RESTful, Modélisation relationnelle, Authentification RBAC
+      - label: Frontend & UI
+        details: React, Next.js, Node.js, TanStack, Tailwind CSS
+      - label: DevOps & Systèmes
+        details: Docker & Docker Compose, Traefik, Linux / Bash, Git / GitHub CI/CD, Postman
+
+    certifications:
+      - Machine Learning Specialization — DeepLearning.AI & Stanford University
+      - Professional Certifications — Back End Development, Relational Databases & APIs
+
+    languages:
+      - label: Langues
+        details: "Arabe : Langue maternelle | Français : Courant | Anglais : Courant"
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.55in
+    right_margin: 0.55in
+    show_footer: false
+    show_top_note: true
+  typography:
+    font_family:
+      body: Liberation Serif
+    font_size:
+      body: 10pt
+      name: 22pt
+  section_titles:
+    type: with_full_line
+    line_thickness: 0.5pt
+    space_above: 0.3cm
+    space_below: 0.15cm

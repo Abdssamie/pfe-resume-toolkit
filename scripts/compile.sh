@@ -1,41 +1,52 @@
 #!/usr/bin/env bash
 # =========================================================================
-# Compile Typst Resumes and Letters to PDF
+# Compile Script for PFE Resume & Application Documents
+# Handles RenderCV (YAML) for Resumes and Typst for Motivation Letters
 # =========================================================================
 
 set -e
 
-# Check if typst is installed
-if ! command -v typst &> /dev/null; then
-  echo "❌ Error: 'typst' is not installed."
-  echo ""
-  echo "How to install typst:"
-  echo "  - Linux (Fedora): sudo dnf install typst"
-  echo "  - Linux (Ubuntu/Debian): sudo apt install typst (or download from https://github.com/typst/typst/releases)"
-  echo "  - macOS: brew install typst"
-  echo "  - Windows: winget install --id Typst.Typst"
-  echo "  - Or open in web app: https://typst.app"
-  exit 1
+echo "🚀 Compiling PFE documents..."
+
+# -------------------------------------------------------------------------
+# 1. Compile Resumes via RenderCV (YAML)
+# -------------------------------------------------------------------------
+if command -v rendercv &> /dev/null; then
+  for f in data/resumes/*.yaml data/resumes/*.yml; do
+    if [ -f "$f" ]; then
+      echo "  📄 [RenderCV] Rendering resume: $f"
+      rendercv render "$f" --dont-generate-markdown --dont-generate-html
+    fi
+  done
+else
+  echo "  ⚠️ 'rendercv' command not found."
+  echo "     Install it with: pip install rendercv"
 fi
 
-echo "🚀 Compiling Typst files in data/resumes and data/applications..."
+# -------------------------------------------------------------------------
+# 2. Compile Motivation Letters / Custom Documents via Typst
+# -------------------------------------------------------------------------
+compile_typst() {
+  local src="$1"
+  local dest="${src%.typ}.pdf"
 
-# Compile resumes
-for f in data/resumes/*.typ; do
-  if [ -f "$f" ]; then
-    out="${f%.typ}.pdf"
-    echo "  📄 Compiling $f -> $out"
-    typst compile "$f" "$out"
+  if command -v typst &> /dev/null; then
+    typst compile "$src" "$dest"
+  elif python3 -c "import typst" &> /dev/null; then
+    # RenderCV installs python-typst under the hood!
+    python3 -c "import typst; typst.compile('$src', output='$dest')"
+  else
+    echo "  ❌ Could not compile $src: typst is not installed."
+    echo "     Either install typst or use the web app: https://typst.app"
+    return 1
   fi
-done
+  echo "  ✉️  [Typst] Compiled letter: $dest"
+}
 
-# Compile application letters
 for f in data/applications/*.typ; do
   if [ -f "$f" ]; then
-    out="${f%.typ}.pdf"
-    echo "  ✉️  Compiling $f -> $out"
-    typst compile "$f" "$out"
+    compile_typst "$f"
   fi
 done
 
-echo "✅ All Typst documents compiled successfully!"
+echo "✅ Compilation complete!"
